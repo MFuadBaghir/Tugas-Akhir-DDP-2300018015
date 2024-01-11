@@ -35,18 +35,16 @@ void papan() {
     cout << "Player 1 (X) - Player 2 (O)" << endl;
     cout << endl;
 
-    cout << "_______________________" << endl;
-    cout << "|     |       |       |" << endl;
-    cout << "|  " << square[1] << "  |   " << square[2] << "   |   " << square[3] << "   |   " << endl;
-    cout << "|_____|_______|_______|" << endl;
-    cout << "|     |       |       |" << endl;
-
-    cout << "|  " << square[4] << "  |   " << square[5] << "   |   " << square[6] << "   |   " << endl;
-    cout << "|_____|_______|_______|" << endl;
-    cout << "|     |       |       |" << endl;
-
-    cout << "|  " << square[7] << "  |   " << square[8] << "   |   " << square[9] << "   |   " << endl;
-    cout << "|_____|_______|_______|" << endl;
+    cout << "_________________________" << endl;
+    cout << "|       |       |       |" << endl;
+    cout << "|   " << square[1] << "   |   " << square[2] << "   |   " << square[3] << "   |   " << endl;
+    cout << "|_______|_______|_______|" << endl;
+    cout << "|       |       |       |" << endl;
+    cout << "|   " << square[4] << "   |   " << square[5] << "   |   " << square[6] << "   |   " << endl;
+    cout << "|_______|_______|_______|" << endl;
+    cout << "|       |       |       |" << endl;
+    cout << "|   " << square[7] << "   |   " << square[8] << "   |   " << square[9] << "   |   " << endl;
+    cout << "|_______|_______|_______|" << endl;
 }
 
 int main() {
@@ -98,4 +96,3 @@ int main() {
 
     return 0;
 }
-
